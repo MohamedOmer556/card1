@@ -32,7 +32,7 @@ section {
 }
 
 .color-box {
-  min-height: 17vh;
+  min-height: 18vh;
   background: url("/images/bg-pattern-card.svg");
   border-radius: 1.4rem 1.4rem 0rem 0rem;
 }
@@ -40,9 +40,9 @@ section {
   border: 0.7rem solid white;
   border-radius: 6rem;
   position: absolute;
-  top: 36%;
-  left: 47%;
-  transform: translate(-36%, -47%);
+  top: 30%;
+  left: 45%;
+  transform: translate(-30%, -45%);
   width: auto;
   object-fit: fill;
 }
@@ -81,9 +81,11 @@ span {
   color: blue;
 }
 hr {
-  color: rgb(220, 217, 228);
   margin-top: 3rem;
   width: 100%;
+  height: 2px;
+  background: rgb(220, 217, 228);
+  border: none;
 }
 .img1 {
   width: 100%;
